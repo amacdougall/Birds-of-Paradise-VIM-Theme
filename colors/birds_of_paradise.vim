@@ -74,6 +74,9 @@ hi Special              gui=NONE guifg=#ef5d32 guibg=bg
 hi SpecialKey           guibg=bg guifg=#7b5f40
 hi Title                gui=bold  guifg=white guibg=bg
 
+hi Pmenu                guifg=white guibg=bg
+hi PmenuSel             guifg=black
+
 
 " TODO: Style these later
 hi Directory            gui=NONE guifg=red guibg=bg
