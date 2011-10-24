@@ -18,8 +18,8 @@ let g:colors_name = "birds"
 " GUI Colors
 hi Cursor               gui=reverse guibg=#8DA1A1 guifg=#ffffff
 hi CursorIM             gui=bold guifg=#ffffff guibg=#8da1a1
-hi CursorLine           gui=NONE guibg=#3d4646
-hi CusorColumn          gui=NONE guibg=#3d4646
+hi CursorLine           gui=NONE guibg=#4A3227
+hi CusorColumn          gui=NONE guibg=#4A3227
 hi ErrorMsg                      guifg=#7b5f40  guibg=FireBrick
 hi VertSplit            gui=NONE guifg=white guibg=#372725
 hi Folded               gui=bold guibg=#7b5f40 guifg=#493432
@@ -73,6 +73,13 @@ hi Error                gui=bold guifg=#ef5d32 guibg=bg
 hi Special              gui=NONE guifg=#ef5d32 guibg=bg
 hi SpecialKey           guibg=bg guifg=#7b5f40
 hi Title                gui=bold  guifg=white guibg=bg
+
+hi Pmenu                guifg=#a38c64 guibg=#6b4e32
+hi PmenuSel             guifg=#6b4e32 guibg=#a38c64
+
+hi docComment           gui=italic guifg=#C2A453
+hi docCommentKeyword    gui=bold   guifg=#C2A453
+hi wingComment          gui=italic guifg=#9C927B
 
 
 " TODO: Style these later
