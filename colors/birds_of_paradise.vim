@@ -16,7 +16,7 @@ endif
 let g:colors_name = "birds"
 
 " GUI Colors
-hi Cursor               gui=reverse guibg=#8DA1A1 guifg=#ffffff
+hi Cursor               gui=reverse guibg=bg guifg=#efac32
 hi CursorIM             gui=bold guifg=#ffffff guibg=#8da1a1
 hi CursorLine           gui=NONE guibg=#4A3227
 hi CusorColumn          gui=NONE guibg=#4A3227
@@ -34,7 +34,7 @@ hi WarningMsg           gui=bold guifg=FireBrick1 guibg=bg
 hi Search               gui=NONE guibg=#7b5f40 guifg=black
 
 " General Syntax Colors
-hi Comment              gui=italic guifg=#6b4e32 guibg=bg
+hi Comment              gui=italic guifg=#805D3C guibg=bg
 hi Todo                 gui=bold guifg=#6b4e32 guibg=bg
 
 hi Identifier           gui=bold guifg=#ef5d32 guibg=bg
