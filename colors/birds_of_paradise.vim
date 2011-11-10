@@ -29,7 +29,7 @@ hi NonText              gui=NONE guifg=#cccccc guibg=#372725
 hi Normal               gui=NONE guifg=#cccccc guibg=#372725
 hi StatusLine           gui=bold guibg=gray guifg=black
 hi StatusLineNC         gui=NONE guibg=grey60 guifg=grey10
-hi Visual               gui=reverse guibg=#cccccc guifg=black
+hi Visual               gui=reverse guibg=bg guifg=#805D3C
 hi WarningMsg           gui=bold guifg=FireBrick1 guibg=bg
 hi Search               gui=NONE guibg=#7b5f40 guifg=black
 
@@ -88,7 +88,7 @@ hi DiffAdd              gui=NONE guifg=fg guibg=DarkCyan
 hi DiffChange           gui=NONE guifg=fg guibg=Green4
 hi DiffDelete           gui=NONE guifg=fg guibg=black
 hi DiffText             gui=bold guifg=fg guibg=bg
-hi IncSearch            gui=reverse guifg=fg guibg=bg
+hi IncSearch            gui=NONE guifg=bg guibg=#C2A453
 hi ModeMsg              guibg=DarkGreen guifg=LightGreen
 hi MoreMsg              gui=bold  guifg=SeaGreen4 guibg=bg
 hi Question             gui=bold  guifg=SeaGreen2 guibg=bg
