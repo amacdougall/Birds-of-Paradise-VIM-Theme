@@ -24,7 +24,7 @@ hi ErrorMsg                      guifg=#7b5f40  guibg=FireBrick
 hi VertSplit            gui=NONE guifg=white guibg=#372725
 hi Folded               gui=bold guibg=#7b5f40 guifg=#493432
 hi FoldColumn           gui=NONE guibg=#7b5f40 guifg=#493432
-hi LineNr               guibg=#372725 guifg=white
+hi LineNr               gui=italic guifg=#805D3C guibg=bg
 hi NonText              gui=NONE guifg=#cccccc guibg=#372725
 hi Normal               gui=NONE guifg=#cccccc guibg=#372725
 hi StatusLine           gui=bold guibg=gray guifg=black
